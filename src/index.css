@@ -1,0 +1,45 @@
+header, footer, body {
+    font-family: 'Yellowtail', cursive;
+    font-size: 45px;
+}
+main {
+    padding: 50px 0 20px;
+}
+footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 40px 10px;
+}
+html, body {
+    max-height: 100vh;
+}
+#home_container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap:200px;
+}
+#home_container div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+#home_container div h1 {
+    font-size: 30px;
+}
+#home_container div img {
+    border-radius: 70px;
+    width: 400px;
+    height: 550px;
+    object-fit: cover;
+}
+#home_container div img:hover {
+    box-shadow: 0 0 20px 20px antiquewhite;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
